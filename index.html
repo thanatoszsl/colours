@@ -2,123 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Colour Assignment</title>
-    <!-- three pages are 
-    index.html with a monochromatic colour scheme
-    analogous.html with an analogous colour scheme
-    complementary.html with a complementary colour scheme 
-    
-    Be sure to replace EVERY color or background-color or border-color that is black, 
-    white, or grey with a colour from your scheme
-    -->
-    <meta name="viewpoint" content="width=device-width" />
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        html{
-            font-size: 16px;
-            line-height: 1.6;
-            font-family: Helvetica, Arial, sans-serif;
-        }
-        html,body{
-            background-color: #4C2010;
-        }
-        h1{
-            font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-            font-size: 3.998rem;
-            padding:1rem 2rem;
-            color: #4C2010;
-        }
-        h2{
-            font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-            font-size: 2.827rem;
-            padding:1rem 2rem;
-            color: #4C2010;
-        }
-        nav ul{
-            padding:1rem 0;
-        }
-        nav li{
-            font-size: 1.999rem;
-            list-style-type: none;
-        }
-        nav li>a{
-            display: block;
-            text-decoration: none;
-            border-bottom: 0.2rem solid #05134F;
-            padding: 0.2rem 2rem;
-            color: #3D2604;
-        }
-        nav li>a:hover,
-        nav li>a:active{
-            color: #EA0E03;
-        }
-        p{
-            font-size: 1.414rem;
-            padding:0.5rem 2rem;
-            color: #2E4F02;
-        }
-        main p:last-child{
-            padding-bottom: 4rem;
-        }
-        .wrapper{
-            width: 80%;
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: #78938C;
-        }
-        header{
-            width:100%;
-            border-bottom: 1rem solid #05134F;
-        }
-        nav{
-            float:left;
-            width: 38.2%;
-        }
-        main{
-            float:right;
-            width: 61.8%;
-        }
-        footer{
-            clear:both;
-            width: 100%;
-            border-top: 0.5rem solid #05134F;
-        }
-        footer p{
-            font-size: 1rem;
-            padding: 2rem;
-            color: #4C2010;
-        }
-    </style>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Droid+Sans|Prociono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <h1>ZED</h1>
+        <header class="masthead" role="banner">
+            <h1>Zed's Bizarre Adventure</h1>
+            <!-- the header needs a background image that fills the whole header -->
         </header>
-        <nav>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-                <li><a href="#">Link 5</a></li>
+        <nav role="navigation">
+            <ul class="mainnav">
+                <li class="link"><a href="#">Home</a></li>
+                <li class="link"><a href="#">Product</a></li>
+                <li class="link"><a href="#">Service</a></li>
+                <li class="link"><a href="#">Social</a></li>
+                <li class="link"><a href="#">contact</a></li>
             </ul>
         </nav>
-        <main>
-            <h2>Some Important Content</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, nesciunt assumenda praesentium amet libero. Eius placeat quasi voluptatibus illo libero, fugiat, quidem temporibus laboriosam rem. Dolores iste, quia neque provident.</p>
-            <p>Sed magnam ullam atque minus, perspiciatis distinctio recusandae vitae a, esse enim voluptatibus! A corrupti, ipsum voluptates aliquam, impedit recusandae quae iusto ea maiores delectus voluptatum illo porro, dignissimos similique!</p>
-            <p>Ea quo, ab sequi, in quia sed expedita quas aliquam dolorem velit vel quis nulla voluptate, atque. Accusamus labore, laboriosam alias quia, officiis, quis earum natus illum corrupti, ratione animi.</p>
-            <p>Culpa quis modi porro. Quae non incidunt dolorem, at in modi expedita, asperiores minima nam? Aperiam nemo ea tempora deleniti omnis aliquid? Nesciunt ea quidem iure quod incidunt officiis sed.</p>
-            <p>Nam assumenda quaerat eius delectus porro perspiciatis labore? Facere, quaerat, doloribus. Perspiciatis numquam vel, dicta optio molestias modi ad accusamus quod excepturi architecto in laboriosam deserunt quibusdam fugiat distinctio pariatur.</p>
+        <main class="main">
+            <section class="colfirst">
+                <h2>Description</h2>
+                <p class="ptop"><img src="img/jojoj.jpg" alt="Kujo Jotaro" />Vel, temporibus? </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt laudantium itaque maxime fugit facere et tenetur, dolores deleniti illo, nihil!</p>
+                <p>Ipsam nulla excepturi adipisci quasi necessitatibus modi corporis aperiam ipsum libero obcaecati enim, cupiditate repellat nihil deserunt doloremque voluptas ut dolor, doloribus.</p>
+                <p>Nesciunt repellendus, laboriosam cumque doloremque accusamus, doloribus eum aperiam voluptatem eius illum voluptatibus eaque impedit enim porro iusto atque. Animi, unde in.</p>
+                <p>Eudaciia ipsum dolor sit amet, consectetur adipisicing elit. Perferendis facilis, ipsa veritatis, eius molestias sint quae consequatur cupiditate dignissimos temporibus a excepturi pariatur nesciunt dicta deleniti sunt corrupti incidunt? Doloremque doloribus necessitatibus, inventore mollitia consequatur ullam dolore tenetur, aliquam maxime, dicta debitis eos sequi libero.</p>
+            </section>
+            <section class="colsecond">
+                <h2>Personal experience</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel atque at blanditiis veniam enim necessitatibus repellat fugiat, quos aperiam odio! Voluptatem officiis corrupti quasi tenetur, obcaecati amet, repellendus ipsam dignissimos aspernatur modi blanditiis libero odio dolore culpa sit illo ullam possimus mollitia veniam molestias doloribus? Porro dignissimos esse, cum aut quod laborum laboriosam soluta veritatis ratione necessitatibus et nesciunt velit maiores ab doloribus fugiat quae minus atque! Voluptatum modi eum esse corrupti magni expedita commodi, sunt, excepturi maxime dolores ipsa.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae in, enim minus. Architecto labore consequatur est eum maiores fugiat tempore asperiores esse, error aliquam veniam.</p>
+                <p>numquam quis laudantium molestiae facere voluptatem, excepturi aliquid ipsam dicta quod eligendi tenetur odit sapiente illum sed, nihil ratione facilis sunt explicabo dolorem? Sapiente quisquam vel voluptatem doloremque inventore, dolore modi! Eum, vero?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id excepturi sit, vero deleniti dignissimos perferendis quis dicta fugit iste exercitationem voluptas ullam veritatis nulla provident numquam facere expedita fuga. Sit natus totam fugit alias vitae rem sequi minus dicta officia modi praesentium aliquid dolor atque maiores pariatur dolore, veritatis quisquam inventore, voluptatem esse, nobis! Ut suscipit et adipisci quae, pariatur cumque, fugiat asperiores dolor omnis recusandae facilis veniam, tempora, mollitia.</p>
+            </section>
         </main>
-        <footer>
-            <p>&copy; 2016 Squid Inc.</p>
+        <footer class="footer" role="contentinfo">
+           <p>&copy; 2016 ZED(thanatoszsl).</p>
+            <ul class="foot">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
         </footer>
     </div>
 </body>
 </html>
+
+
